@@ -1,0 +1,8 @@
+---
+- name: Install Nginx
+  hosts: all
+  remote_user: justMe
+  become: yes
+
+  roles:
+  - nginx
